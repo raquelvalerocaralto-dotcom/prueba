@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    display: flex;
+    border: 8px solid black;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #daa6a4;
+    
+}
+
+
+.PRECIOS {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: -40%;
+
+
+
+}
+
+.PRECIOS h1 {
+    font-size: 160px;
+    transform: rotate(90%);
+    font-family: Gravitas;
+   
+}
+ @font-face {
+    font-family: Gravitas;
+    src: url("../Fnt/GravitasOne-Regular.ttf");
+ }
+
+
+
+.item {
+    width: 680%;
+    height: 20%;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    flex-direction: column;
+
+}
+
+.items img {
+    width: 45%;
+    margin-left: 50%;
+
+}
+ .items h4{
+    font-size: 50px;
+    margin-left: 660px;
+  font-family: gravitas;
+ }
+
+  @font-face {
+    font-family: gravitas;
+    src: url("../Fnt/GravitasOne-Regular.ttf");
+   }
+
+
+
+
+ 
+ 
